@@ -1,0 +1,115 @@
+Wavelyn AI
+Recommended Website Structure
+Ride the Wave of Intelligence
+Products • Solutions • Services • Industries • Customer Stories
+
+Website Strategy
+Products = what Wavelyn has built.  Solutions = business problems Wavelyn solves using one or more products.  Services = custom capabilities when packaged products are not enough.  Customer Stories = proof of delivery and business impact.
+1. Home
+Hero
+Wavelyn AI
+Ride the Wave of Intelligence.
+AI That Moves Business Forward
+From the Eastern Coast of the USA to enterprises globally, Wavelyn AI brings together Enterprise Intelligence, AI Agents, Workflow Automation and Human Interaction Intelligence to help organizations understand, automate and transform their operations.
+Capture  →  Understand  →  Decide  →  Act  →  Automate
+Primary CTAs: Explore Wavelyn AI | Talk to an AI Expert
+2. Products
+Three AI Products. One Intelligent Enterprise.
+Deploy each independently — or connect them to create intelligent, increasingly autonomous business operations.
+Product	Positioning	Core Value
+Wavelyn Vision	Asynchronous Video Intelligence Platform	Capture, interview, assess and understand people through AI-powered asynchronous video.
+Wavelyn Intelligence	Enterprise Intelligence System	Connect multiple systems into one AI intelligence layer to search, understand, analyze and generate insights.
+Wavelyn Autonomy	AI Workflow & Agentic Automation Platform	Use AI agents to orchestrate workflows, people, data and enterprise applications.
+How the Products Work Together
+•	Wavelyn Vision — captures human input and interactions.
+•	Wavelyn Intelligence — combines human and enterprise information into context.
+•	Wavelyn Autonomy — uses intelligence to make decisions, trigger actions and automate workflows.
+People & Video → Enterprise Data & Systems → Intelligence → AI Agents → Autonomous Workflows → Business Outcomes
+3. Solutions
+AI Solutions for Business Operations
+Business-outcome-led solutions combining Wavelyn products, AI agents and enterprise integrations.
+Solution	What Wavelyn Does	Products
+Qualified Lead Generation	Engage prospects, qualify intent, enrich information, score opportunities and route qualified leads to sales.	Intelligence + Autonomy
+Autonomous Hiring	Candidate screening, asynchronous video interviews, AI-assisted evaluation, scheduling and hiring workflows.	Vision + Intelligence + Autonomy
+Employee Onboarding & Offboarding	Coordinate HR, payroll, IT access, training, compliance, department onboarding and exit activities using AI agents.	Intelligence + Autonomy
+Customer Feedback Autonomy	Collect feedback, understand sentiment and themes, identify issues and initiate follow-up actions.	Vision + Intelligence + Autonomy
+Autonomous Business Process Automation	Transform complex multi-system, multi-department processes into AI-agent-driven workflows.	Intelligence + Autonomy
+B2C Customer Service	24×7 conversational assistance for inquiries, requests, transactions, escalation and personalized engagement.	Intelligence + Autonomy
+Core message: We don't just add AI to existing processes. We redesign processes around intelligence and autonomy.
+4. Services
+AI & Digital Engineering
+When the business challenge requires something unique, Wavelyn combines AI expertise with software engineering to design and build solutions around the enterprise.
+Custom AI Development
+GenAI • AI Agents • RAG • Enterprise Copilots • Computer Vision • NLP • Predictive AI • Knowledge Systems
+Custom Software Development
+Web Applications • Mobile Applications • Enterprise Platforms • SaaS Products • Portals • APIs • Cloud Applications
+AI Integration & Modernization
+Connect existing ERP, CRM, HRMS, SIS, databases, documents and legacy applications with modern AI capabilities.
+Build new. Modernize existing. Make it intelligent.
+5. Industries
+Intelligence for Every Industry
+Wavelyn technology is industry-agnostic. Core AI products are combined with industry-specific workflows and business context.
+Retail — Customer intelligence, lead generation, service automation and feedback intelligence.
+Government & Public Sector — Citizen services, knowledge assistants, workflow automation and cross-department intelligence.
+BFSI — Customer engagement, document intelligence, internal knowledge, workflow and service automation.
+Universities & Education — Admissions, asynchronous interviews, student engagement, enrollment workflows and institutional intelligence.
+Real Estate & Infrastructure — Lead qualification, tenant/customer engagement, project intelligence and workflow automation.
+Hospitality — Guest engagement, feedback intelligence, service requests and operations automation.
+Transportation & Logistics — Customer communication, operational intelligence, document workflows and exception management.
+6. Customer Stories
+AI & Digital Solutions in Action
+Future Send — Intelligent Messaging Platform
+•	Challenge: Create a modern communication platform capable of simplifying and improving digital engagement.
+•	Solution: Designed and developed a platform combining messaging workflows, application engineering and intelligent capabilities.
+•	Capabilities: Messaging • Workflow • User Experience • Cloud Platform • AI-ready Architecture
+Home Equipment Services — AI-Powered Service Operations
+Demonstrate how Wavelyn can connect customer experience, enterprise intelligence and workflow automation across the complete service lifecycle.
+Customer Request → AI Qualification → Scheduling → Technician Coordination → Customer Communication → Service Completion → Feedback → Follow-up
+7. The Wavelyn Difference
+Don't Deploy More AI Tools. Build an Intelligent Enterprise.
+Many enterprises are experimenting with isolated copilots, chatbots and AI tools. The result can become another layer of disconnected technology. Wavelyn takes a connected, outcome-led approach.
+•	Connect the systems.
+•	Create enterprise context.
+•	Apply intelligence.
+•	Deploy AI agents.
+•	Automate the workflow.
+•	Continuously learn from outcomes.
+Start Anywhere. Connect Everything.
+Start with an asynchronous interview, customer-service agent, enterprise intelligence use case or one automated workflow — then expand.
+One Use Case → One Department → Connected Enterprise → Autonomous Operations
+Recommended Website Navigation
+Navigation	Pages / Topics
+Products	Vision | Intelligence | Autonomy
+Solutions	Lead Generation | Autonomous Hiring | Employee Lifecycle | Customer Feedback | Business Process Automation | B2C Customer Service
+Industries	Retail | Government | BFSI | Education | Real Estate & Infrastructure | Hospitality | Transportation & Logistics
+Services	AI Development | Software Development | AI Integration
+Customer Stories	Future Send | Home Equipment Services
+Corporate	About | Contact
+
+Brand line: Ride the Wave of Intelligence
+Product architecture: Capture. Understand. Decide. Act. Automate
+
+About page
+
+Wavelyn AI is a brand of Drivita LLC, created to help organizations turn the possibilities of AI into practical business outcomes.
+
+From the Eastern Coast of the United States, Wavelyn AI brings together enterprise intelligence, AI agents, workflow automation and custom AI engineering to help organizations understand their business, automate processes and create better experiences.
+
+Our approach is simple: start with a real business problem, apply the right intelligence, and build for measurable impact.
+
+Through our products, solutions, engineering capabilities and technology ecosystem, we serve organizations across Retail, Government, BFSI, Education, Real Estate & Infrastructure, Hospitality, and Transportation & Logistics.
+
+Our Philosophy
+
+Start Anywhere. Connect Everything.
+
+From one AI use case to enterprise-wide intelligence and autonomous operations, Wavelyn helps businesses move forward—one practical outcome at a time.
+
+Wavelyn AI
+Ride the Wave of Intelligence.
+A Brand of Drivita LLC
+
+For the homepage footer, I’d also use:
+
+> Wavelyn AI — A Brand of Drivita LLC
+From the Eastern Coast to a More Intelligent World.
