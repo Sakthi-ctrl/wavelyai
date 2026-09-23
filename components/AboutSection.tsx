@@ -1,10 +1,10 @@
 "use client";
 
 import React from "react";
-import { Compass, ShieldCheck, MapPin, Building, Award, Target, ArrowRight } from "lucide-react";
+import { Compass, ShieldCheck, MapPin, Building, Target } from "lucide-react";
 
 interface AboutSectionProps {
-  onOpenContact: () => void;
+  onOpenContact?: () => void;
 }
 
 export default function AboutSection({ onOpenContact }: AboutSectionProps) {
@@ -60,19 +60,9 @@ export default function AboutSection({ onOpenContact }: AboutSectionProps) {
                 <p className="text-[11px] text-slate-600">Serving regional enterprises and global corporations.</p>
               </div>
             </div>
-
-            <div className="pt-2">
-              <button
-                onClick={onOpenContact}
-                className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-slate-950 hover:bg-slate-900 text-white text-xs sm:text-sm font-semibold shadow transition-all"
-              >
-                <span>Connect with Leadership</span>
-                <ArrowRight className="w-4 h-4" />
-              </button>
-            </div>
           </div>
 
-          {/* Right Column: Mission Card & Metrics */}
+          {/* Right Column: Mission Card */}
           <div className="lg:col-span-5">
             <div className="rounded-3xl bg-gradient-to-br from-slate-950 via-slate-900 to-sky-950 p-8 sm:p-10 text-white border border-slate-800 shadow-2xl relative">
               <div className="w-12 h-12 rounded-2xl bg-sky-500/20 border border-sky-400/40 text-cyan-400 flex items-center justify-center mb-6">
@@ -85,31 +75,82 @@ export default function AboutSection({ onOpenContact }: AboutSectionProps) {
               <h3 className="text-2xl font-bold text-white mb-4">
                 "Start Anywhere. Connect Everything."
               </h3>
-              <p className="text-xs sm:text-sm text-slate-300 leading-relaxed mb-6">
+              <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
                 From one AI use case to enterprise-wide intelligence and autonomous operations, Wavelyn helps businesses move forward — one practical outcome at a time.
               </p>
-
-              <div className="space-y-3 pt-4 border-t border-slate-800 text-xs text-slate-400">
-                <div className="flex items-center justify-between">
-                  <span>Parent Entity:</span>
-                  <strong className="text-slate-200 font-semibold">Drivita LLC</strong>
-                </div>
-                <div className="flex items-center justify-between">
-                  <span>Brand:</span>
-                  <strong className="text-cyan-300 font-semibold">Wavelyn AI</strong>
-                </div>
-                <div className="flex items-center justify-between">
-                  <span>Headquarters:</span>
-                  <strong className="text-slate-200 font-semibold">Eastern Coast, USA</strong>
-                </div>
-                <div className="flex items-center justify-between">
-                  <span>Coverage:</span>
-                  <strong className="text-slate-200 font-semibold">7 Key Global Industries</strong>
-                </div>
-              </div>
             </div>
           </div>
 
+        </div>
+
+        {/* Core Philosophy Banner (Start Anywhere. Connect Everything) */}
+        <div className="mt-16 lg:mt-20 bg-slate-950 rounded-3xl p-8 sm:p-12 text-white border border-slate-800 shadow-2xl relative overflow-hidden">
+          <div className="relative z-10">
+            <div className="text-center max-w-2xl mx-auto mb-8 sm:mb-10">
+              <span className="text-xs font-extrabold uppercase tracking-widest text-cyan-400 block mb-2">
+                OUR CORE PHILOSOPHY
+              </span>
+              <h3 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-white tracking-tight">
+                Start Anywhere. Connect Everything.
+              </h3>
+              <p className="text-xs sm:text-sm text-slate-400 mt-2.5 leading-relaxed">
+                Start with an asynchronous interview, a customer-service agent, enterprise intelligence use case or one automated workflow — then expand horizontally across your business.
+              </p>
+            </div>
+
+            {/* 4 Phases Progression Grid */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+              
+              <div className="p-5 rounded-xl bg-slate-900/90 border border-slate-800 text-center flex flex-col justify-center">
+                <span className="text-[11px] uppercase font-bold tracking-wider text-cyan-400 block mb-1">
+                  PHASE 1
+                </span>
+                <span className="font-bold text-sm sm:text-base text-white block">
+                  One Use Case
+                </span>
+                <span className="text-[11px] sm:text-xs text-slate-400 mt-1 block">
+                  Immediate ROI in days
+                </span>
+              </div>
+
+              <div className="p-5 rounded-xl bg-slate-900/90 border border-slate-800 text-center flex flex-col justify-center">
+                <span className="text-[11px] uppercase font-bold tracking-wider text-cyan-400 block mb-1">
+                  PHASE 2
+                </span>
+                <span className="font-bold text-sm sm:text-base text-white block">
+                  One Department
+                </span>
+                <span className="text-[11px] sm:text-xs text-slate-400 mt-1 block">
+                  Process redesign
+                </span>
+              </div>
+
+              <div className="p-5 rounded-xl bg-slate-900/90 border border-slate-800 text-center flex flex-col justify-center">
+                <span className="text-[11px] uppercase font-bold tracking-wider text-cyan-400 block mb-1">
+                  PHASE 3
+                </span>
+                <span className="font-bold text-sm sm:text-base text-white block">
+                  Connected Enterprise
+                </span>
+                <span className="text-[11px] sm:text-xs text-slate-400 mt-1 block">
+                  Cross-functional context
+                </span>
+              </div>
+
+              <div className="p-5 rounded-xl bg-slate-900/90 border-2 border-cyan-500 text-center flex flex-col justify-center shadow-[0_0_20px_rgba(6,182,212,0.18)]">
+                <span className="text-[11px] uppercase font-bold tracking-wider text-cyan-400 block mb-1">
+                  TARGET STATE
+                </span>
+                <span className="font-bold text-sm sm:text-base text-white block">
+                  Autonomous Operations
+                </span>
+                <span className="text-[11px] sm:text-xs text-slate-300 mt-1 block">
+                  Self-optimizing enterprise
+                </span>
+              </div>
+
+            </div>
+          </div>
         </div>
 
       </div>

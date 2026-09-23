@@ -26,8 +26,8 @@ export default function Navbar({ onOpenContact, onOpenSearch }: NavbarProps) {
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
-          ? "bg-white/95 backdrop-blur-md shadow-sm border-b border-slate-100 py-3"
-          : "bg-white/95 backdrop-blur-md border-b border-slate-100/90 py-3.5"
+          ? "bg-white shadow-md border-b border-slate-100 py-3"
+          : "bg-white border-b border-slate-100 py-3.5"
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">

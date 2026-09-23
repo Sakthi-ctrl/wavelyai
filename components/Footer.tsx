@@ -3,15 +3,14 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowUpRight } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="bg-white border-t border-slate-200/90 pt-16 pb-12">
+    <footer className="bg-white border-t border-slate-200/80 py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
-        {/* Top Tier: Brand, Navigation & Socials */}
-        <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-8 pb-12 border-b border-slate-100">
+        {/* Main Tier: Brand, Navigation & Socials */}
+        <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-8 pb-8 border-b border-slate-100">
           
           {/* Official Brand Logo */}
           <Link href="/" className="flex items-center group">
@@ -25,13 +24,10 @@ export default function Footer() {
             </div>
           </Link>
 
-          {/* Quick Nav Links Matching Reference */}
+          {/* Quick Nav Links */}
           <nav className="flex flex-wrap items-center gap-x-8 gap-y-3 text-sm font-semibold text-slate-700">
-            <Link href="#home" className="hover:text-sky-600 transition-colors">
-              Home
-            </Link>
             <Link href="#products" className="hover:text-sky-600 transition-colors">
-              Products
+              Product
             </Link>
             <Link href="#solutions" className="hover:text-sky-600 transition-colors">
               Solutions
@@ -50,7 +46,7 @@ export default function Footer() {
             </Link>
           </nav>
 
-          {/* Social Icons Matching Reference */}
+          {/* Social Icons */}
           <div className="flex items-center gap-3">
             <a
               href="https://linkedin.com"
@@ -87,59 +83,6 @@ export default function Footer() {
             </a>
           </div>
 
-        </div>
-
-        {/* Detailed Directory Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 py-10 text-xs text-slate-600 border-b border-slate-100">
-          <div>
-            <h4 className="font-bold text-slate-900 uppercase tracking-wider mb-3 text-[11px]">
-              AI Products
-            </h4>
-            <ul className="space-y-2">
-              <li><Link href="#products" className="hover:text-sky-600">Wavelyn Vision</Link></li>
-              <li><Link href="#products" className="hover:text-sky-600">Wavelyn Intelligence</Link></li>
-              <li><Link href="#products" className="hover:text-sky-600">Wavelyn Autonomy</Link></li>
-              <li><Link href="#how-they-work" className="hover:text-sky-600">Unified Architecture</Link></li>
-            </ul>
-          </div>
-
-          <div>
-            <h4 className="font-bold text-slate-900 uppercase tracking-wider mb-3 text-[11px]">
-              Core Solutions
-            </h4>
-            <ul className="space-y-2">
-              <li><Link href="#solutions" className="hover:text-sky-600">Qualified Lead Generation</Link></li>
-              <li><Link href="#solutions" className="hover:text-sky-600">Autonomous Hiring</Link></li>
-              <li><Link href="#solutions" className="hover:text-sky-600">Employee Lifecycle</Link></li>
-              <li><Link href="#solutions" className="hover:text-sky-600">Customer Feedback Autonomy</Link></li>
-              <li><Link href="#solutions" className="hover:text-sky-600">B2C Customer Service</Link></li>
-            </ul>
-          </div>
-
-          <div>
-            <h4 className="font-bold text-slate-900 uppercase tracking-wider mb-3 text-[11px]">
-              Industries
-            </h4>
-            <ul className="space-y-2">
-              <li><Link href="#industries" className="hover:text-sky-600">Retail & Consumer Goods</Link></li>
-              <li><Link href="#industries" className="hover:text-sky-600">Government & Public Sector</Link></li>
-              <li><Link href="#industries" className="hover:text-sky-600">BFSI Banking & Finance</Link></li>
-              <li><Link href="#industries" className="hover:text-sky-600">Universities & Education</Link></li>
-              <li><Link href="#industries" className="hover:text-sky-600">Real Estate & Hospitality</Link></li>
-            </ul>
-          </div>
-
-          <div>
-            <h4 className="font-bold text-slate-900 uppercase tracking-wider mb-3 text-[11px]">
-              Engineering & Company
-            </h4>
-            <ul className="space-y-2">
-              <li><Link href="#services" className="hover:text-sky-600">Custom AI Development</Link></li>
-              <li><Link href="#services" className="hover:text-sky-600">AI Integration & Modernization</Link></li>
-              <li><Link href="#about" className="hover:text-sky-600">About Wavelyn AI</Link></li>
-              <li><Link href="#about" className="hover:text-sky-600">Drivita LLC Lineage</Link></li>
-            </ul>
-          </div>
         </div>
 
         {/* Bottom Line: Copyright & Regional Tagline */}

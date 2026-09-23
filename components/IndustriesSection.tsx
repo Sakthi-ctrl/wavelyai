@@ -10,7 +10,6 @@ import {
   Building,
   Hotel,
   Truck,
-  ArrowRight,
 } from "lucide-react";
 
 interface IndustriesSectionProps {
@@ -77,29 +76,13 @@ export default function IndustriesSection({ onOpenIndustryModal }: IndustriesSec
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
-        <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
-          <div>
-            <div className="flex items-center gap-2 mb-2">
-              <span className="w-1.5 h-5 bg-sky-600 rounded-full" />
-              <span className="text-xs font-bold tracking-widest text-sky-700 uppercase">
-                INDUSTRIES
-              </span>
-            </div>
-            <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-950 tracking-tight">
-              Built for Every Industry.
-            </h2>
-            <p className="mt-2 text-base sm:text-lg text-slate-600 max-w-3xl">
-              Industry-ready solutions. Real-world impact. Wavelyn technology is industry-agnostic, pairing core AI products with industry-specific workflows and business context.
-            </p>
-          </div>
-
-          <button
-            onClick={() => onOpenIndustryModal("All Industries Overview")}
-            className="inline-flex items-center gap-1.5 text-sm font-semibold text-sky-600 hover:text-sky-700 group shrink-0"
-          >
-            <span>Explore All Industries</span>
-            <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-          </button>
+        <div className="mb-12">
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-950 tracking-tight">
+            Built for Every Industry.
+          </h2>
+          <p className="mt-2 text-base sm:text-lg text-slate-600 max-w-3xl">
+            Industry-ready solutions. Real-world impact. Wavelyn technology is industry-agnostic, pairing core AI products with industry-specific workflows and business context.
+          </p>
         </div>
 
         {/* 7 Photographic Industry Cards Matching Reference Grid */}

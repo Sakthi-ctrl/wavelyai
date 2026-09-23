@@ -2,7 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
-import { ArrowRight, Sparkles } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
 interface CtaBannerProps {
   onOpenContact: () => void;
@@ -50,14 +50,6 @@ export default function CtaBanner({ onOpenContact }: CtaBannerProps) {
             </button>
           </div>
 
-        </div>
-
-        {/* Bottom Tagline Watermark (Matching Reference: "RIDE THE WAVE OF INTELLIGENCE") */}
-        <div className="mt-14 pt-6 border-t border-slate-800/80 flex flex-col sm:flex-row sm:items-center justify-between text-xs text-slate-500 font-mono">
-          <span>Wavelyn AI Enterprise Architecture</span>
-          <span className="tracking-widest uppercase text-cyan-400/90 font-bold mt-2 sm:mt-0">
-            RIDE THE WAVE OF INTELLIGENCE
-          </span>
         </div>
       </div>
     </section>

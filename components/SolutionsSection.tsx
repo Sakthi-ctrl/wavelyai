@@ -86,30 +86,15 @@ export default function SolutionsSection({ onOpenSolutionModal }: SolutionsSecti
   return (
     <section id="solutions" className="py-20 lg:py-28 bg-white border-t border-slate-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         {/* Section Header */}
-        <div className="flex flex-col md:flex-row md:items-end justify-between mb-14 gap-4">
-          <div>
-            <div className="flex items-center gap-2 mb-2">
-              <span className="w-1.5 h-5 bg-sky-600 rounded-full" />
-              <span className="text-xs font-bold tracking-widest text-sky-700 uppercase">
-                SOLUTIONS
-              </span>
-            </div>
-            <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-950 tracking-tight">
-              AI Solutions for What Matters.
-            </h2>
-            <p className="mt-2 text-base sm:text-lg text-slate-600 max-w-3xl">
-              Solve key business challenges with ready-to-deploy, outcome-driven AI solutions.
-            </p>
-          </div>
-          <button
-            onClick={() => onOpenSolutionModal("All Solutions Overview")}
-            className="inline-flex items-center gap-1.5 text-sm font-semibold text-sky-600 hover:text-sky-700 group shrink-0"
-          >
-            <span>Explore All Solutions</span>
-            <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-          </button>
+        <div className="mb-14">
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-950 tracking-tight">
+            AI Solutions for What Matters.
+          </h2>
+          <p className="mt-2 text-base sm:text-lg text-slate-600 max-w-3xl">
+            Solve key business challenges with ready-to-deploy, outcome-driven AI solutions.
+          </p>
         </div>
 
         {/* 6 Solutions Grid */}
@@ -178,7 +163,7 @@ export default function SolutionsSection({ onOpenSolutionModal }: SolutionsSecti
             onClick={() => onOpenSolutionModal("Business Process Transformation")}
             className="shrink-0 px-5 py-2.5 rounded-full bg-cyan-400 hover:bg-cyan-300 text-slate-950 text-xs font-bold tracking-wide transition-all shadow"
           >
-            Explore Framework
+            Talk to Our Experts
           </button>
         </div>
 

@@ -74,7 +74,7 @@ export default function DifferenceSection() {
         </div>
 
         {/* 6 Framework Cards Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {steps.map((step) => {
             const Icon = step.icon;
             return (
@@ -99,52 +99,6 @@ export default function DifferenceSection() {
               </div>
             );
           })}
-        </div>
-
-        {/* Start Anywhere. Connect Everything Banner */}
-        <div className="bg-slate-950 rounded-3xl p-8 sm:p-10 text-white border border-slate-800 shadow-2xl relative overflow-hidden">
-          <div className="relative z-10">
-            <div className="text-center max-w-2xl mx-auto mb-8">
-              <span className="text-xs font-extrabold uppercase tracking-widest text-cyan-400 block mb-1">
-                OUR CORE PHILOSOPHY
-              </span>
-              <h3 className="text-2xl sm:text-3xl font-extrabold text-white">
-                Start Anywhere. Connect Everything.
-              </h3>
-              <p className="text-xs sm:text-sm text-slate-400 mt-2">
-                Start with an asynchronous interview, a customer-service agent, enterprise intelligence use case or one automated workflow — then expand horizontally across your business.
-              </p>
-            </div>
-
-            {/* Progression Bar from Document */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
-              
-              <div className="p-4 rounded-xl bg-slate-900/90 border border-slate-800 text-center">
-                <span className="text-[10px] uppercase font-bold text-cyan-400 block mb-1">Phase 1</span>
-                <span className="font-bold text-sm text-white block">One Use Case</span>
-                <span className="text-[11px] text-slate-400 mt-1 block">Immediate ROI in days</span>
-              </div>
-
-              <div className="p-4 rounded-xl bg-slate-900/90 border border-slate-800 text-center">
-                <span className="text-[10px] uppercase font-bold text-sky-400 block mb-1">Phase 2</span>
-                <span className="font-bold text-sm text-white block">One Department</span>
-                <span className="text-[11px] text-slate-400 mt-1 block">Process redesign</span>
-              </div>
-
-              <div className="p-4 rounded-xl bg-slate-900/90 border border-slate-800 text-center">
-                <span className="text-[10px] uppercase font-bold text-blue-400 block mb-1">Phase 3</span>
-                <span className="font-bold text-sm text-white block">Connected Enterprise</span>
-                <span className="text-[11px] text-slate-400 mt-1 block">Cross-functional context</span>
-              </div>
-
-              <div className="p-4 rounded-xl bg-gradient-to-br from-sky-900/80 to-slate-900 border border-cyan-400/50 text-center shadow-lg">
-                <span className="text-[10px] uppercase font-bold text-cyan-300 block mb-1">Target State</span>
-                <span className="font-bold text-sm text-white block">Autonomous Operations</span>
-                <span className="text-[11px] text-cyan-200 mt-1 block">Self-optimizing enterprise</span>
-              </div>
-
-            </div>
-          </div>
         </div>
 
       </div>
