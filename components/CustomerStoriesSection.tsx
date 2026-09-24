@@ -5,38 +5,28 @@ import Image from "next/image";
 import { Send, Home, ArrowRight, CheckCircle2, Zap, Smartphone, Wrench } from "lucide-react";
 
 interface CustomerStoriesSectionProps {
-  onOpenStoryModal: (storyTitle: string) => void;
+  onOpenStoryModal?: (storyTitle: string) => void;
 }
 
-export default function CustomerStoriesSection({ onOpenStoryModal }: CustomerStoriesSectionProps) {
+export default function CustomerStoriesSection({}: CustomerStoriesSectionProps) {
   return (
     <section id="customer-stories" className="py-20 lg:py-28 bg-slate-50/70 border-t border-slate-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
-        <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
-          <div>
-            <div className="flex items-center gap-2 mb-2">
-              <span className="w-1.5 h-5 bg-sky-600 rounded-full" />
-              <span className="text-xs font-bold tracking-widest text-sky-700 uppercase">
-                CUSTOMER STORIES
-              </span>
-            </div>
-            <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-950 tracking-tight">
-              Real Businesses. Measurable Impact.
-            </h2>
-            <p className="mt-2 text-base sm:text-lg text-slate-600 max-w-3xl">
-              Proof of delivery and business value across high-scale intelligent platforms and real-world operations.
-            </p>
+        <div className="mb-12">
+          <div className="flex items-center gap-2 mb-2">
+            <span className="w-1.5 h-5 bg-sky-600 rounded-full" />
+            <span className="text-xs font-bold tracking-widest text-sky-700 uppercase">
+              CUSTOMER STORIES
+            </span>
           </div>
-
-          <button
-            onClick={() => onOpenStoryModal("All Customer Case Studies")}
-            className="inline-flex items-center gap-1.5 text-sm font-semibold text-sky-600 hover:text-sky-700 group shrink-0"
-          >
-            <span>View All Stories</span>
-            <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-          </button>
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-950 tracking-tight">
+            Real Businesses. Measurable Impact.
+          </h2>
+          <p className="mt-2 text-base sm:text-lg text-slate-600 max-w-3xl">
+            Proof of delivery and business value across high-scale intelligent platforms and real-world operations.
+          </p>
         </div>
 
         {/* 2 Featured Story Cards Grid */}
@@ -106,17 +96,10 @@ export default function CustomerStoriesSection({ onOpenStoryModal }: CustomerSto
               </div>
             </div>
 
-            <div className="px-8 py-4 bg-slate-50/80 border-t border-slate-100 flex items-center justify-between">
+            <div className="px-8 py-4 bg-slate-50/80 border-t border-slate-100">
               <span className="text-xs font-semibold text-slate-500">
                 Capabilities: Messaging • Workflow • Cloud Platform
               </span>
-              <button
-                onClick={() => onOpenStoryModal("Future Send")}
-                className="inline-flex items-center gap-1 text-xs font-bold text-sky-600 hover:text-sky-700 group-hover:translate-x-0.5 transition-transform"
-              >
-                <span>Read the Story</span>
-                <ArrowRight className="w-3.5 h-3.5" />
-              </button>
             </div>
           </div>
 
@@ -184,17 +167,10 @@ export default function CustomerStoriesSection({ onOpenStoryModal }: CustomerSto
               </div>
             </div>
 
-            <div className="px-8 py-4 bg-slate-50/80 border-t border-slate-100 flex items-center justify-between">
+            <div className="px-8 py-4 bg-slate-50/80 border-t border-slate-100">
               <span className="text-xs font-semibold text-slate-500">
                 Impact: 40% Cost Savings • Zero Lost Leads
               </span>
-              <button
-                onClick={() => onOpenStoryModal("Home Equipment Services")}
-                className="inline-flex items-center gap-1 text-xs font-bold text-sky-600 hover:text-sky-700 group-hover:translate-x-0.5 transition-transform"
-              >
-                <span>Read the Story</span>
-                <ArrowRight className="w-3.5 h-3.5" />
-              </button>
             </div>
           </div>
 

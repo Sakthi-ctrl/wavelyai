@@ -52,27 +52,6 @@ export default function HeroSection({ onOpenContact, onOpenDemo }: HeroSectionPr
             Wavelyn AI helps organizations understand, automate and grow with AI — from the Eastern Coast to every industry, globally.
           </p>
 
-          {/* CTA Buttons */}
-          <div className="flex flex-wrap items-center gap-4 sm:gap-5">
-            <button
-              onClick={onOpenContact}
-              className="inline-flex items-center justify-center gap-2.5 h-13 sm:h-14 px-8 rounded-full bg-sky-500 hover:bg-sky-400 text-white font-bold text-sm sm:text-base shadow-lg shadow-sky-500/30 transition-all duration-200 hover:-translate-y-0.5 hover:shadow-cyan-500/40"
-            >
-              <span>Talk to Our Expert</span>
-              <ArrowRight className="w-4 h-4" />
-            </button>
-
-            <button
-              onClick={onOpenDemo}
-              className="inline-flex items-center justify-center gap-2.5 h-13 sm:h-14 px-8 rounded-full bg-slate-900/80 hover:bg-slate-800 text-white font-semibold text-sm sm:text-base border border-slate-700/80 backdrop-blur-md shadow-sm transition-all duration-200 hover:border-slate-500 hover:-translate-y-0.5"
-            >
-              <div className="w-6 h-6 rounded-full bg-white/10 flex items-center justify-center text-cyan-400">
-                <Play className="w-3 h-3 fill-cyan-400 ml-0.5" />
-              </div>
-              <span>See How It Works</span>
-            </button>
-          </div>
-
         </div>
       </div>
     </section>
